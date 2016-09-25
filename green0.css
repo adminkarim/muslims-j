@@ -1,123 +1,1042 @@
-html, body{margin:0px; padding:0px; direction:rtl; min-width:1000px; min-height:600px; background:#FFF; font-family:Tahoma; font-size:12px}
-.bginput:focus, textarea:focus{border:1px #ffeacb solid; background:#fff7ec url('http://i56.servimg.com/u/f56/14/71/20/17/blight15.jpg') repeat-x center top; color:#e39321; text-shadow:0 1px 0 #FFF}
-input, select, textarea{outline:none; cursor:pointer; margin:2px}
-ul, li, h1, h2, h3, h4{margin:0px; padding:0px; list-style:none; list-style-position:inside}
-h1{font-size:12px}
-img{border:none}
-fieldset{margin-bottom:6px; border:1px #eee solid; background:#FFF; font:bold 12px tahoma}
-hr{background:#eee; border-color:#eee}
-
-.BTopNav{background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/btopbg13.png') repeat-x scroll center top; height:72px}
-.BTopNav ul{float:right; width:430px; margin:0 25px 0 0; height:72px}
-.BTopNav ul li{display:inline}
-.BTopNav ul li a{float:right; margin:0 0 0 15px; padding:0 15px 0 0; height:72px; line-height:55px; font-family:Tahoma; font-size:12px; text-decoration:none; background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/btopdo13.png') no-repeat scroll right 25px; color:#FFF; text-shadow:0px 1px 0px #2e5500}
-.BTopNav .BLeft{float:left; background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/y85xa10.jpg') no-repeat; width:480px; height:39px; margin:10px 0 0 0}
-.BTopNav .BLeft .BSearch{float:right; width:215px; margin:0 143px 0 0}
-.BTopNav .BLeft input{border:none; background:none; margin:0; padding:0; font-family:Tahoma; font-size:12px; color:#FFF; text-shadow:0px 1px 0px #000}
-.BTopNav .BLeft .SeaIn{width:146px; padding:11px 5px; float:right}
-.BTopNav .BLeft .SeaSub{float:left; width:59px; height:39px}
-.BTopNav .BLeft .BIco{float:left; margin:0 0 0 15px}
-
-.BHeader{background:transparent url('http://i97.servimg.com/u/f97/14/71/20/17/bheade13.png') repeat-x scroll center top; height:208px}
-.BHeader .BHeader01{background:transparent url('http://i97.servimg.com/u/f97/14/71/20/17/bheade11.png') no-repeat scroll right top; padding:0 76px 0 0; height:208px}
-.BHeader .BHeader01 .BHeader02{background:transparent url('http://i97.servimg.com/u/f97/14/71/20/17/bheade12.png') no-repeat scroll left top; padding:0 0 0 76px; height:208px}
-.BHeader .BHeader01 .BHeader02 .BHeaderLogo{width:786px; height:208px; margin:auto}
-.BHeaderLogo .BRight{background:transparent url('http://i97.servimg.com/u/f97/14/71/20/17/bheade10.png') no-repeat; width:154px; height:208px; float:right}
-.BHeaderLogo .BLogo{background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bheade34.png') no-repeat; width:452px; height:208px; float:right}
-.BHeaderLogo .BLeft{background:transparent url('http://i97.servimg.com/u/f97/19/10/28/39/bheade10.png') no-repeat; width:180px; height:208px; float:right}
-
-.BContent{border:none; border-collapse:collapse; width:100%}
-.BContent .BContentRight{background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bconte16.png') repeat-y scroll right center; width:35px}
-.BContent .BContentCenter{background:#FFF; vertical-align:top; padding:0 0 15px 0}
-.BContent .BContentLeft{background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bconte17.png') repeat-y scroll left center; width:35px}
-
-.BFooter{background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bfoote20.png') repeat-x scroll center top; height:72px}
-.BFooter .BFooterRight{background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bfoote22.png') no-repeat scroll right top; padding:0 436px 0 0; height:72px}
-.BFooter .BFooterRight .BFooterLeft{float:left; background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bfoote21.png') no-repeat scroll left top; width:144px; height:72px}
-
-.BdCatBlock{margin:10px 10px; clear:both}
-
-.bdayh-cattopbg{width:100%; height:69px; background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc31.png') repeat-x scroll center bottom}
-.bdayh-cattopright{width:332px; height:69px; background:transparent url('http://i56.servimg.com/u/f56/14http://i97.servimg.com/u/f97/14/71/20/17/yrn4j110.png/71/20/17/yrn4j10.jpg') no-repeat scroll right top; float:right}
-.bdayh-cattopleft{width:50px; height:69px; background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc32.png') no-repeat scroll left bottom; float:left}
-
-.bdayh-catendbg{width:100%; height:17px; font-size:1px; background:url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc33.png') repeat-x}
-.bdayh-catendright{width:17px; height:17px; font-size:1px; background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc34.png') no-repeat scroll right bottom; float:right}
-.bdayh-catendleft{width:17px; height:17px; font-size:1px; background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc35.png') no-repeat scroll left bottom; float:left}
-
-.bdayh-catright{padding-right:17px; background:#f0f0f0 url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc36.png') repeat-y right}
-.bdayh-catleft{padding-left:17px; background:url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc37.png') repeat-y left}
-.BdCatBlockBody{padding:3px; overflow:hidden; display:block}
-
-.BEhdaa{background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/behdaa20.png') repeat-x scroll center top; height:55px; width:800px; margin:auto; margin-bottom:8px}
-.BEhdaa .BLeft{background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/behdaa21.png') no-repeat scroll left top; padding:0 0 0 12px; height:55px; line-height:50px; color:#6e6e6e; text-shadow:0px 1px 0px #FFF}
-.BEhdaa .BLeft a{color:#6e6e6e; text-shadow:0px 1px 0px #FFF}
-.BEhdaa .BLeft .BRight{float:right; background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/behdaa22.png') no-repeat scroll right top; width:171px; height:55px; float:right}
-.BEhdaa .BLeft .BRRight{float:right; background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/blast013.png') no-repeat scroll right top; width:171px; height:55px; float:right}
-
-.BTmez{width:805px; margin:auto; margin-bottom:20px; overflow:hidden}
-.BTmez li{display:inline; float:right; background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/kzn3n10.jpg') no-repeat scroll center center; width:161px; height:48px; padding:70px 15px 0 15px; margin:0 5px; font-family:Tahoma; font-size:12px; text-align:center; color:#6e6e6e; text-shadow:0px 1px 0px #FFF}
-.BTmez li a{font-family:Tahoma; font-size:12px; text-align:center; color:#6e6e6e; text-shadow:0px 1px 0px #FFF}
-
-.BAdv{width:782px; margin:auto; border-collapse:separate; margin-top:15px}
-.BAdv .tcat{text-align:center; height:35px; line-height:35px; font-weight:bold}
+/* Start Css */
+html, body {
+	margin: 0px;
+	padding: 0px;
+	direction: rtl;
+	min-width: 1000px;
+	min-height: 600px;
+	background: #FFF;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+.bginput:focus, textarea:focus {
+	border : 1px #ffeacb solid;
+	background: #fff7ec url('http://i56.servimg.com/u/f56/14/71/20/17/blight15.jpg') repeat-x center top;
+	color: #e39321;
+	text-shadow: 0 1px 0 #FFF;
+}
+input, select, textarea {
+	outline: none;
+	cursor: pointer;
+	margin: 2px;
+}
+ul, li, h1, h2, h3, h4 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	list-style-position: inside;
+}
+h1 {
+	font-size: 12px;
+}
+img {
+	border: none;
+}
+fieldset {
+	margin-bottom: 6px;
+	border: 1px #eeeeee solid;
+	background: #FFF;
+	font: bold 12px tahoma;
+}
+hr {
+	background: #eeeeee;
+	border-color: #eeeeee;
+}
+/* End Css */
+/* Bdayh Top Nav */
+.BTopNav {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/btopbg13.png') repeat-x scroll center top;
+	height: 72px;
+}
+.BTopNav ul {
+	float: right;
+	width: 430px;
+	margin: 0 25px 0 0;
+	height: 72px;
+}
+.BTopNav ul li {
+	display: inline;
+}
+.BTopNav ul li a {
+	float: right;
+	margin: 0 0 0 15px;
+	padding: 0 15px 0 0;
+	height: 72px;
+	line-height: 55px;
+	font-family: Tahoma;
+	font-size: 12px;
+	text-decoration: none;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/btopdo13.png') no-repeat scroll right 25px;
+	color: #FFF;
+	text-shadow: 0px 1px 0px #2e5500;
+}
+.BTopNav .BLeft {
+	float: left;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/y85xa10.jpg') no-repeat;
+	width: 480px;
+	height: 39px;
+	margin: 10px 0 0 0;
+}
+.BTopNav .BLeft .BSearch {
+	float: right;
+	width: 215px;
+	margin: 0 143px 0 0;
+}
+.BTopNav .BLeft input {
+	border: none;
+	background: none;
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #FFF;
+	text-shadow: 0px 1px 0px #000;
+}
+.BTopNav .BLeft .SeaIn {
+	width: 146px;
+	padding: 11px 5px;
+	float: right;
+}
+.BTopNav .BLeft .SeaSub {
+	float: left;
+	width: 59px;
+	height: 39px;
+}
+.BTopNav .BLeft .BIco {
+	float: left;
+	margin: 0 0 0 15px;
+}
+/* Bdayh Header */
+.BHeader {
+	background: transparent url('http://i97.servimg.com/u/f97/14/71/20/17/bheade13.png') repeat-x scroll center top;
+	height: 208px;
+}
+.BHeader .BHeader01 {
+	background: transparent url('http://i97.servimg.com/u/f97/14/71/20/17/bheade11.png') no-repeat scroll right top;
+	padding: 0 76px 0 0;
+	height: 208px;
+}
+.BHeader .BHeader01 .BHeader02 {
+	background: transparent url('http://i97.servimg.com/u/f97/14/71/20/17/bheade12.png') no-repeat scroll left top;
+	padding: 0 0 0 76px;
+	height: 208px;
+}
+.BHeader .BHeader01 .BHeader02 .BHeaderLogo {
+	width: 786px;
+	height: 208px;
+	margin: auto;
+}
+.BHeaderLogo .BRight {
+	background: transparent url('http://i97.servimg.com/u/f97/14/71/20/17/bheade10.png') no-repeat;
+	width: 154px;
+	height: 208px;
+	float: right;
+}
+.BHeaderLogo .BLogo {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bheade34.png') no-repeat;
+	width: 452px;
+	height: 208px;
+	float: right;
+}
+.BHeaderLogo .BLeft {
+	background: transparent url('http://i97.servimg.com/u/f97/19/10/28/39/bheade10.png') no-repeat;
+	width: 180px;
+	height: 208px;
+	float: right;
+}
+/* bdayh content */
+.BContent {
+	border: none;
+	border-collapse: collapse;
+	width: 100%;
+}
+.BContent .BContentRight {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bconte16.png') repeat-y scroll right center;
+	width: 35px;
+}
+.BContent .BContentCenter {
+	background: #FFF;
+	vertical-align: top;
+	padding: 0 0 15px 0;
+}
+.BContent .BContentLeft {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bconte17.png') repeat-y scroll left center;
+	width: 35px;
+}
+/* bdayh footer */
+.BFooter {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bfoote20.png') repeat-x scroll center top;
+	height: 72px;
+}
+.BFooter .BFooterRight {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bfoote22.png') no-repeat scroll right top;
+	padding: 0 436px 0 0;
+	height: 72px;
+}
+.BFooter .BFooterRight .BFooterLeft {
+	float: left;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bfoote21.png') no-repeat scroll left top;
+	width: 144px;
+	height: 72px;
+}
+/* Bdayh Cat Block */
+.BdCatBlock {
+	margin: 10px 10px;
+	clear: both;
+}
+/* BdayhCatTop */
+.bdayh-cattopbg {
+	width: 100%;
+	height: 69px;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc31.png') repeat-x scroll center bottom;
+}
+.bdayh-cattopright {
+	width: 332px;
+	height: 69px;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/yrn4j10.jpg') no-repeat scroll right top;
+	float: right;
+}
+.bdayh-cattopleft {
+	width: 50px;
+	height: 69px;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc32.png') no-repeat scroll left bottom;
+	float: left;
+}
+/* BdayhCatBottom */
+.bdayh-catendbg {
+	width: 100%;
+	height: 17px;
+	font-size: 1px;
+	background: url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc33.png') repeat-x;
+}
+.bdayh-catendright {
+	width: 17px;
+	height: 17px;
+	font-size: 1px;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc34.png') no-repeat scroll right bottom;
+	float: right;
+}
+.bdayh-catendleft {
+	width: 17px;
+	height: 17px;
+	font-size: 1px;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc35.png') no-repeat scroll left bottom;
+	float: left;
+}
+/* BdayhCatCenter */
+.bdayh-catright {
+	padding-right: 17px;
+	background: #f0f0f0 url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc36.png') repeat-y right;
+}
+.bdayh-catleft {
+	padding-left: 17px;
+	background: url('http://i56.servimg.com/u/f56/14/71/20/17/bdayhc37.png') repeat-y left;
+}
+.BdCatBlockBody {
+	padding: 3px;
+	overflow: hidden;
+	display: block;
+}
+/* Bdayh Ehdaa */
+.BEhdaa {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/behdaa20.png') repeat-x scroll center top;
+	height: 55px;
+	width: 800px;
+	margin: auto;
+	margin-bottom: 8px;
+}
+.BEhdaa .BLeft {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/behdaa21.png') no-repeat scroll left top;
+	padding: 0 0 0 12px;
+	height: 55px;
+	line-height: 50px;
+	color: #6e6e6e;
+	text-shadow: 0px 1px 0px #FFF;
+}
+.BEhdaa .BLeft a {
+	color: #6e6e6e;
+	text-shadow: 0px 1px 0px #FFF;
+}
+.BEhdaa .BLeft .BRight {
+	float: right;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/behdaa22.png') no-repeat scroll right top;
+	width: 171px;
+	height: 55px;
+	float: right;
+}
+.BEhdaa .BLeft .BRRight {
+	float: right;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/blast013.png') no-repeat scroll right top;
+	width: 171px;
+	height: 55px;
+	float: right;
+}
+/* Bdayh Tmez */
+.BTmez {
+	width: 805px;
+	margin: auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.BTmez li {
+	display: inline;
+	float: right;
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/kzn3n10.jpg') no-repeat scroll center center;
+	width: 161px;
+	height: 48px;
+	padding: 70px 15px 0 15px;
+	margin: 0 5px;
+	font-family: Tahoma;
+	font-size: 12px;
+	text-align: center;
+	color: #6e6e6e;
+	text-shadow: 0px 1px 0px #FFF;
+}
+.BTmez li a {
+	font-family: Tahoma;
+	font-size: 12px;
+	text-align: center;
+	color: #6e6e6e;
+	text-shadow: 0px 1px 0px #FFF;
+}
+/* bdayh adv */
+.BAdv {
+	width: 782px;
+	margin: auto;
+	border-collapse: separate;
+	margin-top: 15px;
+}
+.BAdv .tcat {
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	font-weight: bold;
+}
 /* Adv */
-.BAdv468{background:transparent url('http://i97.servimg.com/u/f97/14/71/20/17/badv4614.png') no-repeat; width:468px; height:60px}
-.BAdv150{background:transparent url('http://i56.servimg.com/u/f56/14/71/20/17/badv1514.png') no-repeat; width:150px; height:60px}
-.BAdv317{background:transparent url('http://i97.servimg.com/u/f97/14/71/20/17/badv3111.png') no-repeat; width:150px; height:317px}
+.BAdv468 {
+	background: transparent url('http://i97.servimg.com/u/f97/14/71/20/17/badv4614.png') no-repeat;
+	width: 468px;
+	height: 60px;
+}
+.BAdv150 {
+	background: transparent url('http://i56.servimg.com/u/f56/14/71/20/17/badv1514.png') no-repeat;
+	width: 150px;
+	height: 60px;
+}
+.BAdv317 {
+	background: transparent url('http://i97.servimg.com/u/f97/14/71/20/17/badv3111.png') no-repeat;
+	width: 150px;
+	height: 317px;
+}
+/*************************************************************************************/
+/*									My vB Des										 */
+/*************************************************************************************/
+body {
+	color: #294600;
+}
+a:link, body_alink {
+	color: #294600;
+}
+a:visited, body_avisited {
+	color: #294600;
+}
+a:hover, a:active, body_ahover {
+	color: #292f3b;
+}
+.page {
+	background: transparent;
+	color: #294600;
+}
+.tborder {
+	background: #FFF;
+	border: none;
+}
+.tcat {
+	background: #478300 url('http://i56.servimg.com/u/f56/14/71/20/17/btcat15.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #192e00;
+	border-bottom: 1px #356201 solid;
+}
+.tcat a:link, .tcat_alink {
+	color: #FFF;
+}
+.tcat a:visited, .tcat_avisited {
+	color: #FFF;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover {
+	color: #FFF;
+}
+#fa_toolbar {
+	background: #478300 url('http://i56.servimg.com/u/f56/14/71/20/17/btcat15.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #192e00;
+	border-bottom: 1px #356201 solid;
+}
+.thead {
+	background: #f6f6f6 url('http://i56.servimg.com/u/f56/14/71/20/17/bthead13.png') repeat-x center top;
+	color: #292f3b;
+	text-shadow: 0 1px 0 #ffffff;
+	border-bottom: 1px #efefef solid;
+}
+.thead a:link, .thead_alink {
+	color: #404040;
+}
+.thead a:visited, .thead_avisited {
+	color: #404040;
+}
+.thead a:hover, .thead a:active, .thead_ahover {
+	color: #294600;
+}
+.tfoot {
+	background: #478300 url('http://i56.servimg.com/u/f56/14/71/20/17/btcat15.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #192e00;
+	border-bottom: 1px #356201 solid;
+}
+.tfoot a:link, .tfoot_alink {
+	color: #FFF;
+}
+.tfoot a:visited, .tfoot_avisited {
+	color: #FFF;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover {
+	color: #FFF;
+}
+.alt1, .alt1Active {
+	background: #fcfcfc;
+	color: #454545;
+	border-top: 1px #FFF solid;
+	border-left: 1px #FFF solid;
+	border-right: 1px #eeeeee solid;
+	border-bottom: 1px #eeeeee solid;
+	text-shadow: 0 1px 0 #FFF;
+}
+.alt1 a:link, .alt1_alink, .alt1Active a:link, .alt1Active_alink {
+	color: #294600;
+}
+.alt1 a:visited, .alt1_avisited, .alt1Active a:visited, .alt1Active_avisited {
+	color: #294600;
+}
+.alt1 a:hover, .alt1 a:active, .alt1_ahover, .alt1Active a:hover, .alt1Active a:active, .alt1Active_ahover {
+	color: #292f3b;
+}
+.alt2, .alt2Active {
+	background: #F8F8F8;
+	color: #454545;
+	border-top: 1px #FFF solid;
+	border-left: 1px #FFF solid;
+	border-right: 1px #eeeeee solid;
+	border-bottom: 1px #eeeeee solid;
+	text-shadow: 0 1px 0 #FFF;
+}
+.alt2 a:link, .alt2_alink, .alt2Active a:link, .alt2Active_alink {
+	color: #294600;
+}
+.alt2 a:visited, .alt2_avisited, .alt2Active a:visited, .alt2Active_avisited {
+	color: #294600;
+}
+.alt2 a:hover, .alt2 a:active, .alt2_ahover, .alt2Active a:hover, .alt2Active a:active, .alt2Active_ahover {
+	color: #292f3b;
+}
+.inlinemod {
+	background: #FFFFCC;
+	color: #000000;
+}
+.wysiwyg {
+	background-color: #F8F8F8;
+	color: #454545;
+}
+textarea, .bginput {
+	background: #F8F8F8 url('http://i56.servimg.com/u/f56/14/71/20/17/blight15.jpg') repeat-x center top;
+	color: #454545;
+	border : 1px #eeeeee solid;
+	text-shadow: 0 1px 0 #FFF;
+}
+.button {
+	background: #478300 url('http://i56.servimg.com/u/f56/14/71/20/17/btcat15.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #192e00;
+}
+select {
+	background: #F8F8F8 url('http://i56.servimg.com/u/f56/14/71/20/17/blight15.jpg') repeat-x center top;
+	color: #454545;
+	border : 1px #eeeeee solid;
+}
+.time {
+	color: #292f3b;
+}
+.highlight {
+	color: #FF0000;
+}
+.fjsel {
+	background: #F8F8F8;
+	color: #454545;
+}
+.fjdpth0 {
+	background: #F8F8F8;
+	color: #454545;
+}
+.panel {
+	background: #F8F8F8;
+	color: #454545;
+}
+.panelsurround {
+	background: #F8F8F8;
+	color: #454545;
+}
+legend {
+	background: #478300 url('http://i56.servimg.com/u/f56/14/71/20/17/btcat15.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #192e00;
+}
+.vbmenu_control {
+	background: #478300 url('http://i56.servimg.com/u/f56/14/71/20/17/btcat15.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #192e00;
+}
+.vbmenu_control a:link, .vbmenu_control_alink {
+	color: #FFF;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited {
+	color: #FFF;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover {
+	color: #FFF;
+}
+.vbmenu_popup {
+	background: #F8F8F8;
+	color: #454545;
+}
+.vbmenu_option {
+	background: #F8F8F8;
+	color: #454545;
+}
+.vbmenu_option a:link, .vbmenu_option_alink {
+	color: #294600;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited {
+	color: #294600;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover {
+	color: #292f3b;
+}
+.vbmenu_hilite {
+	background: #FFF;
+	color: #454545;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink {
+	color: #294600;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited {
+	color: #294600;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover {
+	color: #292f3b;
+}
+.panel .vBulletin_editor {
+	background: #FFF;
+	border: 1px #eeeeee solid;
+}
+.vBulletin_editor .controlbar fieldset iframe {
+	border: none;
+}
 
-body{color:#294600}
-a:link, body_alink{color:#294600}
-a:visited, body_avisited{color:#294600}
-a:hover, a:active, body_ahover{color:#292f3b}
-.page{background:transparent; color:#294600}
-.tborder{background:#FFF; border:none}
-.tcat{background:#478300 url('http://i56.servimg.com/u/f56/14/71/20/17/btcat15.png') repeat-x center top; color:#FFF; text-shadow:0 1px 0 #192e00; border-bottom:1px #356201 solid}
-.tcat a:link, .tcat_alink{color:#FFF}
-.tcat a:visited, .tcat_avisited{color:#FFF}
-.tcat a:hover, .tcat a:active, .tcat_ahover{color:#FFF}
-#fa_toolbar{background:#478300 url('http://i56.servimg.com/u/f56/14/71/20/17/btcat15.png') repeat-x center top; color:#FFF; text-shadow:0 1px 0 #192e00; border-bottom:1px #356201 solid}
-.thead{background:#f6f6f6 url('http://i56.servimg.com/u/f56/14/71/20/17/bthead13.png') repeat-x center top; color:#292f3b; text-shadow:0 1px 0 #fff; border-bottom:1px #efefef solid}
-.thead a:link, .thead_alink{color:#404040}
-.thead a:visited, .thead_avisited{color:#404040}
-.thead a:hover, .thead a:active, .thead_ahover{color:#294600}
-.tfoot{background:#478300 url('http://i56.servimg.com/u/f56/14/71/20/17/btcat15.png') repeat-x center top; color:#FFF; text-shadow:0 1px 0 #192e00; border-bottom:1px #356201 solid}
-.tfoot a:link, .tfoot_alink{color:#FFF}
-.tfoot a:visited, .tfoot_avisited{color:#FFF}
-.tfoot a:hover, .tfoot a:active, .tfoot_ahover{color:#FFF}
-.alt1, .alt1Active{background:#fcfcfc; color:#454545; border-top:1px #FFF solid; border-left:1px #FFF solid; border-right:1px #eee solid; border-bottom:1px #eee solid; text-shadow:0 1px 0 #FFF}
-.alt1 a:link, .alt1_alink, .alt1Active a:link, .alt1Active_alink{color:#294600}
-.alt1 a:visited, .alt1_avisited, .alt1Active a:visited, .alt1Active_avisited{color:#294600}
-.alt1 a:hover, .alt1 a:active, .alt1_ahover, .alt1Active a:hover, .alt1Active a:active, .alt1Active_ahover{color:#292f3b}
-.alt2, .alt2Active{background:#F8F8F8; color:#454545; border-top:1px #FFF solid; border-left:1px #FFF solid; border-right:1px #eee solid; border-bottom:1px #eee solid; text-shadow:0 1px 0 #FFF}
-.alt2 a:link, .alt2_alink, .alt2Active a:link, .alt2Active_alink{color:#294600}
-.alt2 a:visited, .alt2_avisited, .alt2Active a:visited, .alt2Active_avisited{color:#294600}
-.alt2 a:hover, .alt2 a:active, .alt2_ahover, .alt2Active a:hover, .alt2Active a:active, .alt2Active_ahover{color:#292f3b}
-.inlinemod{background:#FFC; color:#000}
-.wysiwyg{background-color:#F8F8F8; color:#454545}
-textarea, .bginput{background:#F8F8F8 url('http://i56.servimg.com/u/f56/14/71/20/17/blight15.jpg') repeat-x center top; color:#454545; border:1px #eee solid; text-shadow:0 1px 0 #FFF}
-.button{background:#478300 url('http://i56.servimg.com/u/f56/14/71/20/17/btcat15.png') repeat-x center top; color:#FFF; text-shadow:0 1px 0 #192e00}
-select{background:#F8F8F8 url('http://i56.servimg.com/u/f56/14/71/20/17/blight15.jpg') repeat-x center top; color:#454545; border:1px #eee solid}
-.time{color:#292f3b}
-.highlight{color:#F00}
-.fjsel{background:#F8F8F8; color:#454545}
-.fjdpth0{background:#F8F8F8; color:#454545}
-.panel{background:#F8F8F8; color:#454545}
-.panelsurround{background:#F8F8F8; color:#454545}
-legend{background:#478300 url('http://i56.servimg.com/u/f56/14/71/20/17/btcat15.png') repeat-x center top; color:#FFF; text-shadow:0 1px 0 #192e00}
-.vbmenu_control{background:#478300 url('http://i56.servimg.com/u/f56/14/71/20/17/btcat15.png') repeat-x center top; color:#FFF; text-shadow:0 1px 0 #192e00}
-.vbmenu_control a:link, .vbmenu_control_alink{color:#FFF}
-.vbmenu_control a:visited, .vbmenu_control_avisited{color:#FFF}
-.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover{color:#FFF}
-.vbmenu_popup{background:#F8F8F8; color:#454545}
-.vbmenu_option{background:#F8F8F8; color:#454545}
-.vbmenu_option a:link, .vbmenu_option_alink{color:#294600}
-.vbmenu_option a:visited, .vbmenu_option_avisited{color:#294600}
-.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover{color:#292f3b}
-.vbmenu_hilite{background:#FFF; color:#454545}
-.vbmenu_hilite a:link, .vbmenu_hilite_alink{color:#294600}
-.vbmenu_hilite a:visited, .vbmenu_hilite_avisited{color:#294600}
-.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover{color:#292f3b}
-.panel .vBulletin_editor{background:#FFF; border:1px #eee solid}
-.vBulletin_editor .controlbar fieldset iframe{border:none}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gowetobilobed-offlinebutton {
+background-color:transparent;
+background-image:url("http://i66.servimg.com/u/f66/11/66/00/43/user_o11.gif");
+background-position:center center;
+background-repeat:no-repeat;
+border:medium none;
+height:ارتفاع الايقونةpx;
+min-height:ارتفاع الايقونةpx;
+min-width:عرض الايقونةpx;
+width:عرض الايقونةpx;
+}
+
+ 
+ 
+.offlinebutton{background-color:transparent;background-image:url(http://i66.servimg.com/u/f66/11/66/00/43/user_o11.gif);background-position:center center;background-repeat:no-repeat;border:medium none;height:50px;min-height:50px;min-width:50px;width:50px}
+
+/*-----Programming code byMahmoud TalaaT& sam hameed-----*/
+    #lbOverlay{
+      position:fixed;z-index: 999;
+      left:0;
+      top:0;
+      width:100%;
+      height:100%;
+      Mahmoud TalaaT;
+      background-color:#000;
+      cursor:pointer;
+    }
+    #lbCenter,#lbBottomContainer{
+      position:absolute;
+    Mahmoud TalaaT;
+      z-index: 999;overflow:hidden;
+      background-color:#fff;
+    }
+    .lbLoading{
+      background:#fff url(http://i27.servimg.com/u/f27/14/67/90/38/novfao10.gif) no-repeat center;
+    }
+    #lbImage{
+      position:absolute;left:0;top:0;border:10px solid #fff;background-repeat:no-repeat;}
+    #lbPrevLink,#lbNextLink{
+      display:block;
+    Mahmoud TalaaT;
+      position:absolute;
+      top:0;
+      width:50%;
+      outline:none;
+    }
+    #lbPrevLink{
+      left:0;
+    }
+    #lbPrevLink:hover{
+      background:transparent url(http://i41.servimg.com/u/f41/14/81/17/27/211.png) no-repeat 0 15%;
+    }
+    #lbNextLink{
+      right:0;}
+    #lbNextLink:hover{
+      background:transparent url(http://i41.servimg.com/u/f41/14/81/17/27/310.png) no-repeat 100% 15%;
+    }
+    #lbBottom{
+      font-family:Verdana, Arial, Geneva, Helvetica, sans-serif;font-size:10px;color:#666;line-height:1.4em;
+      text-align:left;
+      Mahmoud TalaaT;
+      border:10px solid #fff;
+      border-top-style:none;
+    }
+    #lbCloseLink{
+      display:block;
+      float:right;
+      Mahmoud TalaaT;
+      width:66px;height:22px;
+      background:transparent url(http://i41.servimg.com/u/f41/14/81/17/27/110.png) no-repeat center;
+      outline:none;
+      Mahmoud TalaaT;
+      margin:5px 0;
+    }
+    #lbCaption,#lbNumber{
+      margin-right:71px;
+    }
+    .postbody img{
+      max-width:450px;
+    }
+    /*-----Programming code byMahmoudTalaat&samhamed-----*/
+
+
+
+
+.AVATAR img {
+        height: 220px;
+        width: 165px;
+    }
+
+.postbitbox
+{
+	background-color: #f4fcfe;
+	border-top: solid 2px #f4fcfe; 
+	border-left: solid 2px #f4fcfe; 
+	border-right: solid 2px #f4fcfe; 
+	border-bottom: solid 2px #f4fcfe;
+	padding:2px;
+	color:#000000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-box-shadow: 0 0 6px #137e9c;  
+	-webkit-box-shadow: 0 0 6px #137e9c;
+	box-shadow: 0 0 6px #137e9c;
+}
+.pbit { 
+padding-left: 3px; 
+padding-right: 0px; 
+padding-top: 3px; 
+padding-bottom: 3px; 
+background-color: #f4fcfe; 
+border-top: 1px solid #99dff3; 
+border-left: 2px solid #99dff3; 
+border-right: 1px solid #99dff3; 
+border-bottom: 2px solid #99dff3; 
+margin-bottom: 3px; 
+}
+.pbit:hover{background-color: #e5f7fc;}
+
+.content {
+    width:700px;
+    margin:10px;
+    float:right;
+}
+
+.sidebar {
+    width:200px;
+    margin:10px;
+    float:left;
+padding: 5px;
+}
+
+
+.sidebaritem {
+        border: 1px solid #D1D1E1;
+border-right: 2px solid #D1D1E1;
+    width:200px;
+background: #fbfbfb url(images/misc/alts.gif) repeat-x;
+padding: 5px;
+}
+
+
+.a7la7ekayaa {
+    width:200px;
+    margin:10px;
+    float:left;
+padding: 5px;
+}
+ 
+ 
+.a7la7ekaya {
+        border: 1px solid #D1D1E1;
+border-right: 2px solid #D1D1E1;
+    width:200px;
+background: #fbfbfb url(images/misc/alts.gif) repeat-x;
+padding: 5px;
+}
+  
+
+.clear {
+    clear:both;
+}
+
+.a7la7ekaya22 {
+        border: 1px solid #D1D1E1;
+border-right: 2px solid #D1D1E1;
+    width:700px;
+background: #fbfbfb url(images/misc/alts.gif) repeat-x;
+padding: 5px;
+}
+  
+
+    tr.post td {
+
+        text-align: center;
+
+    }
+
+    /*a7medvirus Tutorial*/
+        .code{
+        max-height: 200px;
+          overflow: auto;
+          direction: ltr;
+            display: block;
+        }   
+    /*by: Traid web*/
+
+
+      /* كود التحكم بحجم المواضيع والمشاركات */
+    .postbody{
+    font-size: 18px;
+
+    font-weight: bold;
+    font-family:
+     Traditional Arabic;
+    }
+     
+
+
+
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+
+postdetails.poster-profile a img {
+    -webkit-transform:scale(0.9);
+        -moz-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        opacity: 0.9;
+        margin: 0 10px 5px 0;
+        }
+   
+
+    /*في الرد السريع*/
+    form#quick_reply:Before{
+      content: "لا تنسى وضع عنوان جيد لموضوعك مع مراعاة تنسيقه و اخفاء الروابط";
+      text-align: center;
+      padding: 4px;
+      font-size: 11px;
+      font-family: Tahoma;
+      background: none repeat scroll 0 0 #FFFFFF;
+      border: 1px dotted #ff0000;
+      line-height: 25px;
+    }
+    /*عند اضافة موضوع جديد*/
+    #format-buttons:After{
+      content: "لا تنسى وضع عنوان جيد لموضوعك مع مراعاة تنسيقه و اخفاء الروابط";
+      text-align: center;
+      padding: 4px;
+      font-size: 11px;
+      font-family: Tahoma;
+      background: none repeat scroll 0 0 #FFFFFF;
+      border: 1px dotted #ff0000;
+      line-height: 25px;
+    }
+    /*a7medvirus*/
+
+
+  
+    a:link
+    {
+    text-decoration: none;
+    }
+
+    a:visited
+    {
+    text-decoration: none;
+    }
+
+    a:active
+    {
+    text-decoration: none;
+    }
+
+    a:hover
+    {
+    text-decoration: none;
+    }
+    a:link
+    {
+    text-decoration: none;
+    }
+
+    a:visited
+    {
+    text-decoration: none;
+    }
+
+    a:active
+    {
+    text-decoration: none;
+    }
+    a:link {text-decoration: none;}
+    a:hover{text-decoration: none !important;}
+    a { text-decoration: none; }
+    a:link { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a.gen:hover,a.genmed:hover,a.gensmall:hover { background-color: #d4d4d2; }
+    a:hover{text-transform:uppercase;}
+
+
+ 
+
+    tr.post td {
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-- personalisation pseudo QEL --*/
+a span[style="color:#FF0000"] strong {
+background:url(http://i73.servimg.com/u/f73/11/60/75/36/admini10.png) no-repeat;
+padding-left:17px;}
+
+a span[style="color:#008F37"] strong {
+background:url(http://i73.servimg.com/u/f73/11/60/75/36/helper10.png) no-repeat;
+padding-left:17px;}
+
+a span[style="color:#5FC4E3"] strong {
+background:url(http://i73.servimg.com/u/f73/11/60/75/36/top10.png) no-repeat;
+padding-left:17px;}
+
+
+
+
+
+
+
+
+
+
+a span[style="color:#619BFF"] strong {
+    background: url("http://i73.servimg.com/u/f73/11/60/75/36/top10.png") no-repeat scroll 0 0 transparent;
+    padding-left: 17px;
+}
+
+
+
+a span[style="color:#D40C9B"] strong {
+    background: url("http://i76.servimg.com/u/f76/16/25/12/20/untitl10.png") no-repeat scroll 0 0 transparent;
+    padding-left: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+    
+
+ 
+
+
+
+
+
+
+
+
+
+
+  
+   
+  
+
+
+ 
+      
+ 
+ 
+
+
+
+
+
+
+
+
+.fa_avatar {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: -3px;
+  margin-right: 5px;
+  border-radius: 3px;
+  margin-bottom: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#lbOverlay{position:fixed;z-index:
+ 
+999;left:0;top:0;width:100%;height:100%;background-color:#000;cursor:pointer;}#lbCenter,#lbBottomContainer{position:absolute;z-index:
+ 999;overflow:hidden;background-color:#fff;}.lbLoading{background:#fff
+url(http://i27.servimg.com/u/f27/14/67/90/38/novfao10.gif) no-repeat
+center;}#lbImage{position:absolute;left:0;top:0;border:10px solid
+#fff;background-repeat:no-repeat;}#lbPrevLink,#lbNextLink{display:block;position:absolute;top:0;width:50%;outline:none;}#lbPrevLink{left:0;}#lbPrevLink:hover{background:transparent
+ url(http://i27.servimg.com/u/f27/14/67/90/38/11qo2n10.gif) no-repeat 0
+15%;}#lbNextLink{right:0;}#lbNextLink:hover{background:transparent
+url(http://i27.servimg.com/u/f27/14/67/90/38/1r7u6o10.gif) no-repeat
+100% 15%;}#lbBottom{font-family:Verdana, Arial, Geneva, Helvetica,
+sans-serif;font-size:10px;color:#666;line-height:1.4em;text-align:left;border:10px
+ solid
+#fff;border-top-style:none;}#lbCloseLink{display:block;float:right;width:66px;height:22px;background:transparent
+ url(http://i27.servimg.com/u/f27/14/67/90/38/1217by10.gif) no-repeat
+center;outline:none;margin:5px
+0;}#lbCaption,#lbNumber{margin-right:71px;}
+.postbody img{max-width:450px;}
+
+
+
+
+
+
+
+
 
